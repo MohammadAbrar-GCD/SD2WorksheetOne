@@ -8,7 +8,14 @@ class wordTest {
 
 	 @Test
 	    public void testContains() {
-	        // Stub test (to be implemented later)
+	        // Stub test method
 	    }
 
+	 @Test
+	    public void testLength() {
+	        // Stub test method
+	    }
+	 
+	 
+	 
 }
