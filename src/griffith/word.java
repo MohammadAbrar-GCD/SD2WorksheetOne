@@ -13,14 +13,20 @@ public class word {
 	        }
 	    }
 
-    // Stub method to check if the word contains a character
+    //Checks if the given character exists in the letters array.
     public boolean contains(char symbol) {
-        return false; // Stub implementation
+    	for (char letter : letters) {
+            if (letter == symbol) {
+                return true;
+            }
+        }
+        return false;
     }
+    
 
-    // Stub method to return the length of the word
+    
     public int length() {
-        return 0; // Stub implementation
+    	 return letters.length; // Returns the length
     }
 
     // Method to return the letters array
