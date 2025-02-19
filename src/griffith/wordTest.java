@@ -8,7 +8,11 @@ class wordTest {
 
 	 @Test
 	    public void testContains() {
-	        // Stub test method
+	         word word = new word(new char[]{'H', 'e', 'l', 'l', 'o'});
+	        
+	        assertTrue(word.contains('H')); // Should pass when implemented
+	        assertTrue(word.contains('o')); // Should pass when implemented
+	        assertFalse(word.contains('z')); // Should pass when implemented
 	    }
 
 	 @Test
