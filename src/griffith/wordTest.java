@@ -13,7 +13,8 @@ class wordTest {
 
 	 @Test
 	    public void testLength() {
-	        // Stub test method
+		 word word = new word(new char[]{'H', 'e', 'l', 'l', 'o'});
+		 assertEquals(5, word.length());
 	    }
 	 
 	 @Test
