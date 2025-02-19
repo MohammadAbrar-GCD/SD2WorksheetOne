@@ -18,7 +18,13 @@ class wordTest {
 	 
 	 @Test
 	    public void testNotNull() {
-	        // Stub test method
+	       
+			word word = new word(null);
+
+	        // Check that the internal letters array is not null
+	        assertNotNull(word.getLetters());
+	        
+	        
 	    }
 	 
 }
