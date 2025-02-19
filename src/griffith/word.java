@@ -5,9 +5,13 @@ public class word {
 	private char[] letters;
 
     // Constructor
-    public word(char[] letters) {
-        this.letters = letters;
-    }
+	 public word(char[] letters) {
+	        if (letters == null) {
+	            this.letters = new char[0]; // Assign an empty array instead of null
+	        } else {
+	            this.letters = letters;
+	        }
+	    }
 
     // Stub method to check if the word contains a character
     public boolean contains(char symbol) {
