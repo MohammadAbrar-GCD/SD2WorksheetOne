@@ -16,6 +16,9 @@ class wordTest {
 	        // Stub test method
 	    }
 	 
-	 
+	 @Test
+	    public void testNotNull() {
+	        // Stub test method
+	    }
 	 
 }
